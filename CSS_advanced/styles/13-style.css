@@ -47,7 +47,7 @@ a:not(a[href^="#"]) {
 }
 
 a:visited {
-    font-style: italic;
+    text-decoration: italic;
 }
 
 a:hover {
