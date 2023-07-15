@@ -41,13 +41,13 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
-a:not(a[href^="#"]) {
+a:not(a:not([href])) {
     color: var(--text-color);
     text-decoration: none;
 }
 
 a:visited {
-    text-decoration: italic;
+    font-style: italic;
 }
 
 a:hover {
