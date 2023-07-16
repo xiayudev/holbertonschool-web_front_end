@@ -174,7 +174,7 @@ ul.row {
     padding: 0.5rem;
 }
 
-.section .container .row [class^="col-"] {
+.section .container .row [class^="col-"]:not(.col-1-2, .col-1-3) {
     float: left;
     padding: 0.5rem;
 }
