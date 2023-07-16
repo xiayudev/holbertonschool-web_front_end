@@ -157,8 +157,8 @@ ul.row {
 }
 
 .row::after {
-    content: none;
-    display: table;
+    content: "";
+    display: block;
     float: none;
 }
 
